@@ -1,0 +1,110 @@
+body{
+    background-image: url('/picture/img\ 1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+
+form{
+    text-align: center;
+}
+ /* my work on zenith img */
+.imcy{
+    text-align: right;
+    margin-left: 30%;
+    margin-bottom:17%;
+    border-style: double ;
+    animation:rotatecolour 5s linear infinite 
+
+}
+
+.imcy:hover{
+  width:10% ;
+}
+    @keyframes rotatecolour{
+          0% {
+            color: blueviolet;
+          }
+          90%{
+            color:red ;
+          }
+          100%{
+            color:darkslategray ;
+          }
+          50%{
+            color: blue;
+          }
+          60%{
+            color:yellow ;
+          }
+          70%{
+            color: blueviolet;
+          }
+          89%{
+            color: green;
+          }
+          65%{
+            color:purple;
+          }
+
+
+
+    }
+
+
+
+
+
+
+/* h2{ */
+    /* margin-right: 12%; */
+/* } */
+
+
+.fa-bell{
+  color:black;
+  margin-left: 10%;
+  border-style: solid;
+  padding: 13px;
+  border-radius: 50%;
+  border-style: hidden;
+  background-color:rgba(47, 79, 79, 0.589);
+  
+}
+
+
+
+
+
+
+
+
+.cy4{
+    margin-right: 7%;
+    /* margin-bottom: 5%; */
+    margin-bottom: 3%;
+}
+/* my work on input */
+input{
+    width:300px ;
+    height:30px ;
+    border-radius: 2%;
+    font-size: large;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color:black;
+    /* color: darkslategray; */
+}
+.costome-hr{
+    width: 35%;
+    height:2px ;
+    background-color: darkslategray;
+}
+
+
+
+
+
+
+
+

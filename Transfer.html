@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bank Transfer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div>
+  <h4  style="background-color:red ;">  <a href="home.html"> <i class="fa-solid fa-arrow-left"></i>  </a> 
+     Transfer&nbsp;&nbsp;&nbsp; <img class="image" src="picture/zenith 1.jpg" alt="zenith 1">              </h4>
+    </div>
+
+  <div class="box">
+     <div>
+        <br>
+      <b> <a href=""> <input   class="pp" type="text" placeholder="TRANSFER HISTORY"> </a> &nbsp; &nbsp; &nbsp;
+        <a href=""><input class="pp"   type="text"  placeholder="SAVED TRANSFER">  </a>
+     </b>
+     </div>
+     <p style="margin-right: 50%;"      ><b>Select Transfer Mode</b></p>
+                        <!-- my work on icon and its bottom -->
+            <i class="fa-solid fa-person-military-to-person"> <p  class="Own-account">Own Account</p></i>
+        
+            <i class="fa-solid fa-building-columns"><p class="Zenith-account">Zenith Bank</p></i>
+
+            <i class="fa-solid fa-building-columns"><p class="Others-account" >Others Bank</p></i> <br>
+           
+       <b style="margin-right:50% ;"  >Sellect Source Account</b> <br>
+       <!-- my work on advanve imput text first input        -->
+    
+       <input class="input-p"      type="text" list="option" id="inputfield"  placeholder="Sellect Account" >
+              <datalist class="input-p"     id="option">
+             <option value="214578963528">214578963528</option>
+              </datalist> <br><br>
+              <!--advance second input -->
+
+        <b style="margin-right:42% ;" >Sellect Destination Account</b> <br>
+        <input class="input-p" type="text " list="cyber" id="inputcyber"  placeholder="Sellect Account"  >
+              <datalist id="cyber">
+                <option value="Zenith Bank">Zenith Bank</option>
+                <option value="Polaries Bank">Polaries Bank</option>
+                <option value="OPay Bank">OPay Bank</option>
+                <option value="Acess Bank">Acess Bank</option>
+                <option value="Eco Bank">Eco Bank</option>
+                <option value="Firse Bank">First Bank</option>
+                <option value="Fedelity Bank">Fedelity Bank</option>
+                <option value="UBA Bank">UBA Bank</option>
+              </datalist> <br><br>
+
+              <!-- my work on normal input -->
+              <b style="margin-right:75%;">Amount</b>
+              <input class="input-p" type="text" placeholder="0.00">  <br><br>
+
+              <b style="margin-right:50%;"   >Transaction Descriotion</b> <br> 
+              <input class="input-p" type="text">
+
+              <b   style="margin-right:0% ;">Schedule Transfer  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                                &nbsp;&nbsp;&nbsp;&nbsp;
+                                                                &nbsp;&nbsp;&nbsp;   <input type="range">    </b>
+               <hr class="hr" style="width: 60%;">
+            <a href="home.html"><input class="input-p"  style="background-color:red ;" type="text" placeholder="CONTINUE"></a> <br>
+             <br>
+
+
+
+             <div >
+                <a href="home.html">     <i class="fa-solid fa-house"><p class="HTBA"  >Home</p ></i>   </a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <a href="Transfer.html">       <i class="fa-solid fa-right-left"><p class="HTBA">Transfer</p></i>  </a>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Bills.html">      <i class="fa-duotone fa-solid fa-money-bill-wheat"><p class="HTBA">Bills</p></i>  </a>   &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="Airtime.html">      <i class="fa-solid fa-font"><p  class="HTBA">Airtime</p></i>  </a>        
+            </div>
+              
+        
+        
+
+
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+</body>
+</html>
+
+<style>
+.image{
+    width:2% ;
+    height:2% ;
+    margin-left:90%
+} 
+.box{
+    margin-left:35% ;
+    width: 30%;
+    
+    text-align: center;
+    background-color: rgba(47, 79, 79, 0.61);
+}
+.pp{
+    height:30px ;
+    width:150px ;
+    /* background-color: rgba(47, 79, 79, 0.637); */
+}
+
+         /* my worh on icons */
+
+
+.fa-person-military-to-person{
+    font-size:150% ;
+    border-style: double;
+    background-color:white ;
+    padding-top: 2%;
+    text-align: left;
+    color: red;
+    border-radius: 10%;
+    border-color: black;
+
+    /* margin-right: 40%; */
+}
+
+.fa-building-columns{
+    font-size: 150%;
+    border-style: double;
+    background-color: white;
+    padding-top: 2%;
+    text-align: left;
+    color: red;
+    border-radius: 10%;
+    border-color: black;
+    margin-left:20% ;
+}
+
+     /* my work on icons bottom write-up */
+.Own-account,.Zenith-account,.Others-account{
+    font-size:30%;
+    color: black;
+}
+.input-p{
+    height:30px ;
+    width:350px ;
+    text-align: center;
+}
+.HTBA{
+    text-align: center;
+    font-size: small;
+    color: black;
+}
+.fa-house,.fa-right-left,.fa-money-bill-wheat,.fa-font{
+    font-size:150% ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+</style>
